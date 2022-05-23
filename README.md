@@ -2,7 +2,7 @@
 
 Program that computes some basic statistics on a collection of small positive integers. All values will be less than 1,000.
 
-[![Build Status](https://app.travis-ci.com/rcovar00/tech-challenge.svg?branch=main)](https://github.com/rcovar00/tech-challenge)
+[![Build Status](https://app.travis-ci.com/rcovar00/tech-challenge.svg?branch=main)](https://app.travis-ci.com/rcovar00/tech-challenge)
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/rcovar00/tech-challenge)
