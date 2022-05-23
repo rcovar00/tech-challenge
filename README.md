@@ -55,7 +55,7 @@ stats.greater(4) # Returns 2 (6 and 9 are the only two values greater than 4)
 
 ### Run tests
 
-`python -m unittest test_stats.py`
+`python -m unittest tests/test_stats.py`
 
 ## Author
 

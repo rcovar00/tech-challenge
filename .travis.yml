@@ -11,4 +11,4 @@ python:
 install:
   - pip --version
 script:
-  - python -m unittest test_stats.py
+  - python -m unittest tests/test_stats.py
