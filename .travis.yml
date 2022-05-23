@@ -8,6 +8,7 @@ python:
   - "3.9"
   - "3.9-dev"  # 3.9 development branch
   - "nightly"  # nightly build
-# command to run tests
+install:
+  - pip --version
 script:
   - python -m unittest test_stats.py
