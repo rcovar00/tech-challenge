@@ -24,7 +24,7 @@ def validate_int_range(f):
 
 def validate_execution(f):
     def wrapper(self, *args):
-        if self.wasBuilt:
+        if self.was_built:
             raise Exception(
                 "You cannot add more values after call build_stats()")
 
@@ -76,7 +76,7 @@ class DataCapture:
         self.less_than = {}  # Amount of numbers that are less than the key value
         self.min_num = None
         self.max_num = None
-        self.wasBuilt = False
+        self.was_built = False
 
     @validate_execution
     @validate_integer
@@ -100,6 +100,6 @@ class DataCapture:
             if x in self.values:
                 count += self.values[x]
 
-        self.wasBuilt = True
+        self.was_built = True
 
         return Stats(self)
